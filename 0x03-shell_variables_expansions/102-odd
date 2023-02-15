@@ -1,0 +1,23 @@
+#!/bin/bash
+root@729cdc052797:/alx-system_engineering-devops/0x03-shell_variables_expansions# cat > 101-rot13
+#!/bin/bash
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
+root@729cdc052797:/alx-system_engineering-devops/0x03-shell_variables_expansions# chmod u+x 101-rot13
+root@729cdc052797:/alx-system_engineering-devops/0x03-shell_variables_expansions# ./github
+Enter The Commit Message
+Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+[master 45f3a0c] Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x03-shell_variables_expansions/101-rot13
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 421 bytes | 421.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/brayan-root/alx-system_engineering-devops.git
+   4481449..45f3a0c  master -> master
+root@729cdc052797:/alx-system_engineering-devops/0x03-shell_variables_expansions# cat > 102-odd
+#!/bin/bash
+paste -d, - - | cut -d, -f1
